@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Du lịch bốn mùa</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div class="header-img">
+            <img src="../img/anhHeader.jpg" alt="Du lịch bốn mùa" />
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Tìm Tour</a></li>
+                <li><a href="#">Dịch vụ</a></li>
+                <li><a href="#">Liên hệ</a></li>
+                <li><input type="text" placeholder="Search..." /></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="content-left">
+            <h2 class="section-title">Giới thiệu</h2>
+            <div class="intro-box">
+                <p>
+                    <strong>Vietravel</strong> - Nhà tổ chức du lịch chuyên nghiệp...<br /> Nội dung phong phú; hình thức thể hiện mới mẻ, hiện đại phù hợp với cả đối tượng khó tính nhất.
+                </p>
+            </div>
+
+            <div class="tour">
+                <div class="tour-image">
+                    <img src="../img/Img_Tour_1.jpg" alt="Tour Bali" />
+                </div>
+                <div class="tour-info">
+                    <h3>Tour Bali 4N3Đ: Khám phá BALI</h3>
+                    <p>Giá tour chọn gói: 9.990.000 VNĐ</p>
+                    <ul>
+                        <li>Khởi hành từ: Hồ Chí Minh</li>
+                        <li>Điểm đến: Bali</li>
+                        <li>Lịch trình: 4 ngày 3 đêm</li>
+                        <li>Phương tiện: Máy bay</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="tour">
+                <div class="tour-image">
+                    <img src="../img/Img_Tour_2.jpg" alt="Tour Hàn Quốc" />
+                </div>
+                <div class="tour-info">
+                    <h3>Tour Hàn Quốc mùa thu 5N4Đ</h3>
+                    <p>Giá tour chọn gói: 16.990.000 VNĐ</p>
+                    <ul>
+                        <li>Khởi hành từ: Hồ Chí Minh</li>
+                        <li>Điểm đến: Hàn Quốc</li>
+                        <li>Lịch trình: 5 ngày 4 đêm</li>
+                        <li>Phương tiện: Máy bay</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <aside class="content-right">
+            <form class="form-dat-tour">
+                <h2>Thông tin đặt tour</h2>
+
+                <label>Họ tên</label>
+                <input type="text" name="hoten" required />
+
+                <label>Điện thoại</label>
+                <input type="tel" name="dienthoai" required />
+
+                <label>Email</label>
+                <input type="email" name="email" required />
+
+                <label>Số người lớn:</label>
+                <input type="number" name="nguoilon" min="0" />
+
+                <label>Số trẻ em:</label>
+                <input type="number" name="treem" min="0" />
+
+                <label>Thanh toán</label>
+                <select name="thanhtoan">
+            <option>Trực tiếp</option>
+            <option>Chuyển khoản</option>
+          </select>
+
+                <label>Các yêu cầu đặc biệt</label>
+                <textarea name="ghichu" rows="4"></textarea>
+
+                <div class="button-group">
+                    <button type="submit" class="btn dat">Đặt tour</button>
+                    <button type="reset" class="btn huy">Hủy đặt tour</button>
+                </div>
+            </form>
+        </aside>
+    </main>
+
+    <footer>
+        <p>
+            Họ tên sinh viên: .......... | Mã sinh viên: .......... | Mã lớp: ..........
+        </p>
+    </footer>
+    <script src="../JavaScript/main.js"></script>
+</body>
+
+</html>

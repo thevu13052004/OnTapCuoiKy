@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #000;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #fff;
+}
+
+.header-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.main-nav {
+    background-color: #006400;
+}
+
+.main-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 10px 20px;
+    gap: 30px;
+}
+
+.main-nav li {
+    color: white;
+    font-size: 18px;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.main-nav input[type="text"] {
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    width: 200px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 30px 20px;
+    background-color: #f2f2f2;
+}
+
+.content-left {
+    width: 68%;
+}
+
+.section-title {
+    font-size: 28px;
+    color: #8b0000;
+    margin-bottom: 15px;
+}
+
+.intro-box {
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 10px #ccc;
+}
+
+.tour {
+    display: flex;
+    gap: 20px;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tour-image {
+    width: 40%;
+}
+
+.tour-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.tour-info {
+    width: 60%;
+}
+
+.tour-info h3 {
+    color: #00796b;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.tour-info p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tour-info ul {
+    padding-left: 20px;
+}
+
+.content-right {
+    width: 30%;
+    max-width: 350px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.2);
+}
+
+.form-dat-tour h2 {
+    color: #8b0000;
+    margin-bottom: 20px;
+}
+
+.form-dat-tour label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-dat-tour input[type="text"],
+.form-dat-tour input[type="tel"],
+.form-dat-tour input[type="email"],
+.form-dat-tour input[type="number"],
+.form-dat-tour select,
+.form-dat-tour textarea {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.form-dat-tour textarea {
+    resize: vertical;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn.dat {
+    background-color: blue;
+    color: white;
+}
+
+.btn.huy {
+    background-color: red;
+    color: white;
+}
+
+footer {
+    background-color: #006400;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    margin-top: 30px;
+}
